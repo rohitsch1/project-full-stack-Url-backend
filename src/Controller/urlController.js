@@ -60,7 +60,7 @@ const urlShorten = async function (req, res) {
         }
 
         let code = shortid.generate().trim().toLowerCase()
-        let short = `http://localhost:3030/${code}`
+        let short = `https://project-full-stack-url-backend-1.onrender.com/${code}`
 
         let document = {
             longUrl: longUrl,
